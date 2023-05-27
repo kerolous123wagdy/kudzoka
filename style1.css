@@ -1,0 +1,317 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+.photo {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    position: relative;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 50px 90px;
+    position: absolute;
+    top: 0px;
+}
+
+.navbar .nav-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .nav-left .logo img {
+    width: 100px;
+}
+.navbar .nav-left a {
+    color: rgb(144, 144, 144);
+    margin: 0 15px;
+    padding-bottom: 3px;
+    text-decoration: none;
+    position: relative;
+}
+
+.navbar .nav-left .active::after {
+    border-bottom: 3px solid #A778B9;
+    width: 70%;
+    position: absolute;
+    left: 0;
+    top: 88%;
+}
+.navbar .nav-right button {
+    background-image: url(login_button_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 30px;
+}
+
+/*Start of landing-page*/
+.landing-page {
+    position: absolute;
+    top: 40%;
+    left: 80px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+}
+.landing-page .content h1{
+    margin: 15px 0;
+    color: rgb(140, 140, 140);
+}
+.landing-page .content h1 span{
+    color: #A778B9;
+}
+.landing-page .content p{
+    color: grey;
+    line-height: 1.5;
+}
+.photos-of-Landing .photo-1{
+    position: absolute;
+    right: 0%;
+    top: 6%;
+}
+.photo-2{
+    position: absolute;
+    right: 13.5%;
+    top: 10%;
+}
+.photo-3{
+    position: absolute;
+    left: 66%;
+    top: 65%;    
+    
+}
+.photo-4{
+    position: absolute;
+    right: 20%;
+    top: 70%;
+}
+
+/* The Second section*/
+.the-second{
+    position: relative;
+}
+.the-second .second-section-image{
+    position: absolute;
+    left: 28%;
+    margin-top: 90px;
+}
+/*Start of First Column*/
+.the-second .super img{
+    position: absolute;
+    left: 20%;
+    top: 160px;
+}
+.the-second .super .content{
+    position: absolute;
+    left: 18%;
+    top: 332px;
+    text-align: center;
+}
+.the-second .super h3{
+    text-align: center;
+    margin: 5px 0;
+    text-transform: capitalize;
+    color: rgb(141, 141, 141);
+}
+/*End of First Column*/
+
+.the-second .text-super{
+    text-align: center;
+    line-height: 1.3;
+    margin: 3px;
+    color: rgb(130, 130, 130);
+}
+
+/*Start of Second Column*/
+.the-second .parent-real img{
+    position: absolute;
+    left: 743px;
+    margin-top: 286px;
+}
+.the-second .parent-real .content{
+    position: absolute;
+    left: 43%;
+    top: 442px;
+    text-align: center;
+}
+.the-second .parent-real .content h3{
+    text-transform: capitalize;
+    text-align: center;
+    margin: 5px 0;
+    margin-left: 20px;
+    color: rgb(141, 141, 141);
+}
+/*End of Second Column*/
+
+/*Start of third Column*/
+.the-second .discount-parent img{
+    position: absolute;
+    left: 73%;
+    top: 565px;
+}
+.the-second .discount-parent .content{
+    position: absolute;
+    left: 68%;
+    top: 700px;
+    text-align: center;
+}
+.the-second .discount-parent .content h3{
+    text-transform: capitalize;
+    text-align: center;
+    margin: 5px 0;
+    margin-left: 20px;
+    color: rgb(141, 141, 141);
+}
+/*End of third Column*/
+
+/*Start of Kudzoka photo*/
+.the-second .parent-Kudzoka img{
+    position: absolute;
+    left: 18%;
+    top: 565px;
+}
+.the-second .parent-Kudzoka .content{
+    position: absolute;
+    left: 22%;
+    top: 665px;
+    font-size: 25px;
+    color: white;
+    padding-left: 10px;
+}
+/*End of Kudzoka photo*/
+
+/* The End of Second section*/
+
+/*  Start of third Section  */
+.third-section{
+    position: absolute;
+    top: 210%;
+    left: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.third-section .image2{
+    margin: 0 100px;
+    padding-bottom: 35px;
+}
+.third-section .image2 .fa-angle-left, .fa-angle-right{
+    position: absolute;
+    top: 72%;
+    color: rgb(141, 141, 141);
+}
+.third-section .image2 .content{
+    position: absolute;
+    top: 85%;
+    left: 40%;
+}
+.third-section .image2 .content h4{
+    color: rgb(141, 141, 141);
+}
+.third-section .image2 .content p{
+    margin-top: 20px;
+    line-height: 1.3;
+    color: rgb(141, 141, 141);
+    text-align: center;
+}
+.third-section .image3{
+    margin-top: 45px;
+}
+/* The End of third Section  */
+
+/* Start of Footer section */
+footer {
+    max-width: 100vw;
+    min-height: 620px;
+    overflow: hidden;
+    position: relative;
+    top: 175vh;
+}
+footer .parent-image{
+   width: 115%;
+   position: absolute;
+   left: -5%;
+   top: 0;
+   overflow: hidden;
+}
+footer .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+footer .content .left .stores{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 10%;
+    top: 70%;
+}
+footer .content .left .stores .app-store{
+    border-radius: 10px;
+    padding: 10px;
+    min-width: 120px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+footer .content .left .stores .app-store .text{
+    margin-left: 10px;
+    font-size: 10px;
+}
+footer .content .left .stores .play-store{
+    border-radius: 10px;
+    padding: 10px 15px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+footer .content .left .stores .play-store .text{
+    margin-left: 10px;
+    font-size: 10px;
+}
+footer .content .left .icons{
+    position: absolute;
+    left: 10%;
+    top: 82%;
+}
+footer .content .left .icons a img{
+    margin-right: 10px;
+}
+footer .content .left .links{
+    position: absolute;
+    left: 10%;
+    top: 92%;  
+}
+footer .content .left .links a{
+    color: white;
+    margin: 0 30px 0 0;
+    padding-bottom: 3px;
+    text-decoration: none; 
+}
+footer .content .right img{
+    width: 700px;
+    height: 450px;
+    position: absolute;
+    top: 27.2%;
+    left: 49%; 
+}
+
